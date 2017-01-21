@@ -14,22 +14,31 @@ nameElement.innerHTML = "Tay-Tay";
 
 Project Manager*/
 
-var nameElement = document.getElementById("position2");
-nameElement.innerHTML = "Project Manager";
+var positionElement = document.getElementById("position2");
+positionElement.innerHTML = "Project Manager";
 
 
 /*3. Replace the n/a with the following:
 
 Concatenation*/
 
+var aliasElement = document.getElementById("alias3");
+aliasElement.innerHTML = "Concatenation";
 
 
 /*4. Replace the n/a for Snoop with the gangsta lorem ipsum*/
+
+var profileElement = document.getElementsByClassName("profile");
+profileElement[0].innerHTML = "Lorem that's the shizzle dolor i'm in the shizzle amizzle, consectetizzle adipiscing uhuh ... yih!. Tellivizzle black velizzle, crazy volutpizzle, suscipit break yo neck, yall, gangsta vel, dope. Pellentesque eget tortor. Shizzle my nizzle crocodizzle erizzle. izzle break it down ma nizzle get down get down tempus bow wow wow. I'm in the shizzle shizzle my nizzle crocodizzle fo shizzle my nizzle i'm in the shizzle check it out. Rizzle i saw beyonces tizzles and my pizzle went crizzle tortor. Pellentesque eleifend nizzle. In hizzle fo shizznit dictumst. Donec dapibizzle. Nizzle shizzle my nizzle crocodizzle urna, pretizzle check it out, mattis shizznit, eleifend my shizz, nunc. Yippiyo suscipizzle. Integer sempizzle velizzle sizzle fo shizzle.";
+console.log(profileElement);
 
 
 
 /*5. Relace the n/a for Samuel L Jackson with his lorem ipsum*/
 
+var samuelElement = document.getElementsByClassName("profile");
+samuelElement[2].innerHTML = "My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?";
+console.log(samuelElement);
 
 
 
@@ -37,12 +46,19 @@ Concatenation*/
 
 Append this div element to the nameBox div*/
 
- 
+var chuckElement = document.createElement("div");
+    chuckElement.id = "name7";
+    chuckElement.innerHTML = "Chuck Norris";	
+    nameBox.appendChild(chuckElement);
 
 /*7. Create a div element for Grimmace and give it an id of "alias8". Inside this div element, give it the contents of "The Purple Monster".
 
 Append this div element to the aliasBox div.*/
 
+var grimmaceElement = document.createElement("div");
+grimmaceElement.id = "alias8";
+grimmaceElement.innerHTML = "CSS Champion";
+aliasBox.appendChild(grimmaceElement);
 
 
 
