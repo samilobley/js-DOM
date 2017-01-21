@@ -57,10 +57,47 @@ Append this div element to the aliasBox div.*/
 
 var grimmaceElement = document.createElement("div");
 grimmaceElement.id = "alias8";
-grimmaceElement.innerHTML = "CSS Champion";
+grimmaceElement.innerHTML = "The Purple Monster";
 aliasBox.appendChild(grimmaceElement);
 
 
 
 //Final Boss
 /*8. Create your own profile.*/
+
+var newName = document.createElement("div");
+var newPosition = document.createElement("div");
+var newAlias = document.createElement("div");
+var newBio = document.createElement("div");
+
+newName.className = "name";
+newPosition.className = "position";
+newAlias.className = "alias";
+newBio.className = "profile";
+
+newName.innerHTML = "Sami";
+newPosition.innerHTML = "Software Engineer";
+newAlias.innerHTML = "JavaScript Kween";
+newBio.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt dolores numquam excepturi perferendis, quam quas iste quae vitae, sint facere, dignissimos in, ipsam ab velit odio architecto. Non, porro, ducimus.";
+
+var newProfile = document.getElementsByClassName("block3 col-sm-4")[2];
+newProfile.appendChild(newName);
+newProfile.appendChild(newPosition);
+newProfile.appendChild(newAlias);
+newProfile.appendChild(newBio);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
